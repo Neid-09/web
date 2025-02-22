@@ -1,0 +1,62 @@
+/* Global Styles */
+body {
+    background-color: #f4f4f4; /* Fondo general */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff; /* Fondo del contenido */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Encabezados */
+h1, h2 {
+    color: #2563eb;
+}
+
+/* Secciones */
+.section {
+    background-color: #dbeafe; /* Fondo de secciones */
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+    transition: background 0.3s ease-in-out;
+}
+
+.section:hover {
+    background-color: #93c5fd; /* Hover de secciones */
+}
+
+/* Botones de acción */
+button {
+    background-color: #2563eb; /* Botón de acción */
+    color: #ffffff; /* Texto del botón */
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin: 20px auto;
+    font-size: 16px;
+    display: block;
+
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

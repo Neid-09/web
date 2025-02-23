@@ -8,6 +8,7 @@
     <title>Introducción a Base de Datos</title>
 </head>
 <body>
+    
     <div class="container">
         <h1>Introducción a Base de Datos</h1>
         <p id="pTitle">Explora los conceptos clave, gráficos y juega para aprender.</p>
@@ -34,5 +35,14 @@
         <h2>¿Quieres poner a prueba tu conocimiento?</h2>
         <button  onclick="window.location.href='juego/indexGame.html'">¡Jugar!</button>
     </div>
+    <footer>
+        <p>&copy; <span id="year"></span> Introducción a Base de Datos. Todos los derechos reservados.</p>
+        <p>Desarrollado por: Neider Guindigua, Leonel Enriquez, Daniel Macias, Andres Botina</p>
+    </footer>
+    
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    
 </body>
 </html>
